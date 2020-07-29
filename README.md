@@ -3,7 +3,7 @@ M.2 key M to WiFi Adapter
 
 Problem:
 
-Modern Intel mobos have CNVi socket for WiFi modules, but no M.2 key A/E slot. The only possibility to use Apple WiFi module, is to utilize existing M.2 key M socket. There are adapters exist, but all these adapters share one single problem - WiFi module is powered by PCI-E 3v3 power. It means, that during standby (sleep) module will lost the power and will be disconnected. On wake, module will be powered back again and will restart then. It takes a lot of time to start the module, and to reconnect all peripherals. Sometimes, module does not start correctly and needs to be reset.
+Modern Intel mobos have CNVi socket for WiFi modules, but no M.2 key A/E slot. The only possibility to use Apple WiFi module, is to utilize existing M.2 key M socket. There are adapters exist, but all these adapters share one single problem - WiFi module is powered by PCI-E 3v3 power. It means, that during standby (sleep), module will lost the power and will be disconnected. On wake, module will be powered back again and will restart then. It takes a lot of time to start the module, and to reconnect all peripherals. Sometimes, module does not start correctly and needs to be reset.
 
 Solution:
 
