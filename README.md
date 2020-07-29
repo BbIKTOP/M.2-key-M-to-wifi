@@ -11,4 +11,4 @@ To solve this problem, WiFi module needs to be constantly powered, even in the s
 
 Parts and components:
 
-For USB connection, ordinary 4 pins surface mount JST 1mm pitch conector is used. For WiFi module, Apple surface mount connector is used. I could not find it available to buy separately, so I use one unsoldered from other cheap adapter. The proposed schematic uses LDO to produce 3v3 from USB 5v, as buck converter can make unwanted EMI that could potentially affect PCI-E bus. 1.2 A 3v3 LDO, like LDL1117S33R, is used, but, I suppose, AMS1117 or equivalent would be enough as well.
+For USB connection, ordinary 4 pins surface mount JST 1mm pitch conector is used. For WiFi module, Apple surface mount connector is used. I could not find it available to buy separately, so I use one unsoldered from other cheap adapter. The proposed schematic uses LDO to produce 3v3 from USB 5v, as buck converter can make unwanted EMI that could potentially affect PCI-E bus. 1.2 A 3v3 LDO, like LDL1117S33R, is used, but, I suppose, AMS1117 or any equivalent in SOT-223 package would be enough as well.
