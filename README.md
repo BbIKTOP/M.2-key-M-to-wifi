@@ -10,6 +10,6 @@ To solve this problem, WiFi module needs to be constantly powered, even in the s
 
 ## Parts and components:
 
-For USB connection, ordinary 4 pins surface mount JST 1mm pitch conector is used. For WiFi module, Apple Airport surface mount connector is used. Both are available for purchase in online stores. The proposed schematic uses LDO to produce 3v3 from USB 5v, as buck converter can make unwanted EMI that could potentially affect PCI-E bus or wireless communications. 1.2 A 3v3 LDO, like LDL1117S33R, is used, but other LDOs in SOT-223 package, as AMS1117, would work fine as well.
+For USB connection, ordinary 4 pins surface mount JST 1mm pitch conector is used. For WiFi module, Apple Airport surface mount connector is used. Both are available for purchase in online stores. The proposed schematic uses LDO to produce 3v3 from USB 5v, as buck converter can make unwanted EMI, that could potentially affect PCI-E bus or wireless communications. 1.2 A 3v3 LDO, like LDL1117S33R, is used, but any other 3v3 LDO in SOT-223 package, like AMS1117, will work fine as well.
 
 ![Schematic](m2_to_apple.schematic.png)
